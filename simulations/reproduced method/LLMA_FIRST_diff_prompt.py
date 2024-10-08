@@ -26,15 +26,15 @@ def loc_init(Size_area, Dist_TX_RX, Num_D2D, Num_Ch):
     # Size_area: Defines the size of the square area where the transmitters are located
     # Dist_TX_RX: Maximum distance allowed between transmitter and receiver
     # Num_D2D: Number of device-to-device (D2D) (users)
-    # Num_Ch: Number of channels
+    # Num_Ch: Number of channels  #TODO
     
     # Randomly generate D2D transmitter locations. np.random.rand generates values in [0, 1), so we shift to [-0.5, 0.5)
     # Then, scale by Size_area to ensure the locations are within the defined area.
-    tx_loc = Size_area * (np.random.rand(Num_D2D, 2) - 0.5)
+    tx_loc = Size_area * (np.random.rand(Num_D2D, 2) - 0.5)  #TODO
     
     # Initialize an array to store D2D receiver locations
     # We have Num_D2D + 1 receivers because the last one is for the Cellular User Equipment (CUE)
-    rx_loc = np.zeros((Num_D2D + 1, 2))
+    rx_loc = np.zeros((Num_D2D + 1, 2))  #TODO
     
     # For each D2D transmitter, generate a feasible location for its corresponding receiver
     for i in range(Num_D2D):
@@ -46,7 +46,7 @@ def loc_init(Size_area, Dist_TX_RX, Num_D2D, Num_Ch):
 
     # Generate random locations for CUE transmitters
     # CUE (Cellular User Equipment) locations are generated similarly to D2D transmitters, scaled within the Size_area.
-    tx_loc_CUE = Size_area * (np.random.rand(Num_Ch, 2) - 0.5)
+    tx_loc_CUE = Size_area * (np.random.rand(Num_Ch, 2) - 0.5)  #TODO
 
     # Return the receiver locations (including the extra one for CUE), the D2D transmitter locations, and the CUE transmitter locations
     return rx_loc, tx_loc, tx_loc_CUE
@@ -102,17 +102,17 @@ def ch_gen(Size_area, D2D_dist, Num_D2D, Num_Ch, Num_samples, PL_alpha=38., PL_c
         rx_loc, tx_loc, tx_loc_CUE = loc_init(Size_area, D2D_dist, Num_D2D, Num_Ch)
 
         # Temporary list to store channel gains for each channel (frequency band)
-        ch_w_temp_band = []
+        ch_w_temp_band = []  #(numchan, numtrans, numreceiver) #TODO
         for j in range(Num_Ch):
             # Combine D2D transmitters and the current CUE transmitter for channel calculation
-            tx_loc_with_CUE = np.vstack((tx_loc, tx_loc_CUE[j]))  # (num_channels+num_d2d, 2)
+            tx_loc_with_CUE = np.vstack((tx_loc, tx_loc_CUE[j]))  # (1+num_d2d, 2)
 
             # Calculate the distance vector between each receiver and each transmitter
             # rx_loc is reshaped to (Num_D2D + 1, 1, 2) for proper broadcasting during subtraction
-            dist_vec = rx_loc.reshape(Num_D2D + 1, 1, 2) - tx_loc_with_CUE
+            dist_vec = rx_loc.reshape(Num_D2D + 1, 1, 2) - tx_loc_with_CUE  # (Num_D2D + 1, Num_D2D + 1)
             # Calculate Euclidean distance between each pair (receiver-transmitter)
             dist_vec = np.linalg.norm(dist_vec, axis=2)
-            # Prevent distances from being too small (minimum distance threshold of 3 meters)
+            # Prevent distances from being too small (minimum distance threshold of 3 meters) #TODO
             dist_vec = np.maximum(dist_vec, 3)
 
             # Calculate path loss (in dB) using the log-distance path loss model (without shadowing)
@@ -130,17 +130,17 @@ def ch_gen(Size_area, D2D_dist, Num_D2D, Num_Ch, Num_samples, PL_alpha=38., PL_c
 
             # Calculate the final channel gain by multiplying path loss gain with fading coefficients
             # Use np.maximum to ensure the channel gain does not fall below a very small threshold (avoid numerical errors)
-            final_ch = np.maximum(pu_ch_gain * multi_fading, np.exp(-30))
+            final_ch = np.maximum(pu_ch_gain * multi_fading, np.exp(-30)) # (Num_D2D + 1, Num_D2D + 1)
 
             # Store the transposed channel matrix for the current channel (frequency band)
             ch_w_temp_band.append(np.transpose(final_ch))
 
         # Append the channel gain matrix for all channels of the current sample
-        ch_w_fading.append(ch_w_temp_band)
+        ch_w_fading.append(ch_w_temp_band)  #(samples, num_chan, Num_D2D + 1, Num_D2D + 1)
         # Store the locations of receivers, transmitters, and CUE transmitters for the current sample
-        rx_loc_mat.append(rx_loc)
-        tx_loc_mat.append(tx_loc)
-        CUE_loc_mat.append(tx_loc_CUE)
+        rx_loc_mat.append(rx_loc)   #(samples, Num_D2D + 1, Num_D2D + 1)
+        tx_loc_mat.append(tx_loc)   #(samples, Num_D2D + 1, Num_D2D + 1)
+        CUE_loc_mat.append(tx_loc_CUE)    #(samples, Num_D2D + 1, Num_D2D + 1)
 
     # Convert the collected channel gains and locations into numpy arrays for further processing
     return np.array(ch_w_fading), np.array(rx_loc_mat), np.array(tx_loc_mat), np.array(CUE_loc_mat)
@@ -251,38 +251,38 @@ def all_possible_tx_power(num_channel, num_user, granuty):
 
     # Create a list of arrays representing possible power levels for each user and channel.
     # Each user/channel can have values ranging from 0 to granuty-1.
-    items = [np.arange(granuty)] * (num_user * num_channel)
+    items = [np.arange(granuty)] * (num_user * num_channel)  #(granularity-1, num_user*numchan)
 
     # Generate all combinations of power levels for each user and channel using Cartesian product.
-    temp_power = list(itertools.product(*items))
+    temp_power = list(itertools.product(*items))  # (num_combinations, num_user*numchan)
 
     # Reshape the list of combinations into a 3D numpy array:
     # Shape will be (number of combinations, num_user, num_channel)
-    temp_power = np.reshape(temp_power, (-1, num_user, num_channel))
+    temp_power = np.reshape(temp_power, (-1, num_user, num_channel))  # (num_combinations, num_user, numchan)
 
     # Sum the transmission powers across all channels for each configuration.
-    power_check = np.sum(temp_power, axis=2)
+    power_check = np.sum(temp_power, axis=2)   # (num_combinations, num_user)
 
     # Create a flag to check if the normalized power for each configuration is less than or equal to 1.
     # This ensures that the total power does not exceed a certain limit.
-    flag = (power_check / (granuty - 1) <= 1).astype(int)
+    flag = (power_check / (granuty - 1) <= 1).astype(int)   # (num_combinations, num_user) 
 
     # Check that exactly one user has a non-zero power allocation in each configuration.
-    flag = (np.sum(flag, axis=1) / num_user == 1).astype(int)
+    flag = (np.sum(flag, axis=1) / num_user == 1).astype(int)   # (num_combinations,)   #TODO
 
     # Reshape the flag to have shape (number of combinations, 1) for later multiplication.
-    flag = np.reshape(flag, (-1, 1))
+    flag = np.reshape(flag, (-1, 1))  #(number of combinations, 1)
 
     # Reshape temp_power to 2D for filtering:
     # Shape will be (number of combinations, num_user * num_channel)
-    temp_power_1 = np.reshape(temp_power, (-1, num_user * num_channel))
+    temp_power_1 = np.reshape(temp_power, (-1, num_user * num_channel))   # (num_combinations, num_user, numchan)
 
     # Filter valid power configurations by multiplying with the flag.
     # Invalid configurations will be zeroed out.
     temp_power = temp_power_1 * flag
 
     # Reshape back to original dimensions and normalize the power values.
-    power = np.reshape(temp_power, (-1, num_user, num_channel)) / (granuty - 1)
+    power = np.reshape(temp_power, (-1, num_user, num_channel)) / (granuty - 1)   # (num_combinations, num_user, numchan)
 
     # Initialize a list to collect valid power configurations.
     power_mat = []
@@ -295,20 +295,22 @@ def all_possible_tx_power(num_channel, num_user, granuty):
             power_mat.append(power[i])
 
     # Return the valid power configurations as a numpy array.
-    return np.array(power_mat)
+    return np.array(power_mat)   # (num_valid_combinations, num_user, numchan)
 
 
 def optimal_power(channel, tx_max, noise, DUE_thr, I_thr, P_c, tx_power_set, opt="SE"):
     '''
     This function calculates the optimal transmission power for Device-to-Device (D2D) communications 
     under certain constraints and objectives (either maximizing Spectral Efficiency (SE) or Energy Efficiency (EE)).
+    It also takes into account interference to Cellular User Equipment (CUE) and ensures that D2D users meet
+    minimum data rate (capacity) thresholds.
     
     Parameters:
     - channel: A 3D array representing the channel gains for each user and sample.
     - tx_max: Maximum transmission power allowed for each user.
     - noise: Noise level affecting the transmission.
     - DUE_thr: Minimum capacity threshold for D2D users.
-    - I_thr: Interference threshold for CUE (Cellular User Equipment).
+    - I_thr: Interference threshold for CUE (Cellular User Equipment) caused by D2D communications.
     - P_c: Constant power consumed regardless of transmission.
     - tx_power_set: Set of transmission power configurations to consider.
     - opt: Objective for optimization, either "SE" for Spectral Efficiency or "EE" for Energy Efficiency.
@@ -322,9 +324,9 @@ def optimal_power(channel, tx_max, noise, DUE_thr, I_thr, P_c, tx_power_set, opt
     '''
     
     # Extract the number of channels, D2D users, and samples from the channel data
+    num_samples = channel.shape[0]
     num_channel = channel.shape[1]
     num_D2D_user = channel.shape[2] - 1  # Last user is the CUE
-    num_samples = channel.shape[0]
     
     # Initialize total Spectral Efficiency and lists to store power settings and infeasible channels
     tot_SE = 0
@@ -345,29 +347,31 @@ def optimal_power(channel, tx_max, noise, DUE_thr, I_thr, P_c, tx_power_set, opt
         for j in range(num_channel):
             cur_ch = channel[i][j]  # Current channel matrix for this sample and channel
             
-            # Calculate the channel capacity for the current configuration
-            cur_ch_cap = cal_RATE_one_sample_one_channel(cur_ch, tx_power[:, :, j], noise)
+            # Calculate the channel capacity for the current configuration (spectral eff)
+            cur_ch_cap = cal_RATE_one_sample_one_channel(cur_ch, tx_power[:, :, j], noise)  # (num_config, num_D2D + 1)
             
             # Calculate the interference from D2D to CUE for the current power settings
-            inter = cal_CUE_INTER_one_sample_one_channel(cur_ch, tx_power[:, :, j])
+            inter = cal_CUE_INTER_one_sample_one_channel(cur_ch, tx_power[:, :, j])  # (num_config, num_D2D + 1)
             
             # Update the total capacity
-            cur_cap += cur_ch_cap
+            cur_cap += cur_ch_cap  # (num_config, num_D2D + 1)
             
-            # Check if the CUE interference is below the threshold
-            CUE_mask *= (inter[:, num_D2D_user] < I_thr)
+            # Check if the CUE interference (caused by all other D2D users) is below the threshold
+            CUE_mask *= (inter[:, num_D2D_user] < I_thr)  # (num_config,)
 
         # Check if D2D users meet the transmission requirement
         for j in range(num_D2D_user):
-            DUE_mask *= (cur_cap[:, j] > DUE_thr)
+            DUE_mask *= (cur_cap[:, j] > DUE_thr)  
+        # all users in all configurations should meet the transmission requirements
+        # shape of Due mask = # (num_config,)
 
         # Expand the dimensions of masks for broadcasting
-        CUE_mask = np.expand_dims(CUE_mask, -1)
-        DUE_mask = np.expand_dims(DUE_mask, -1)
+        CUE_mask = np.expand_dims(CUE_mask, -1)  # (num_config, 1)
+        DUE_mask = np.expand_dims(DUE_mask, -1)  # (num_config, 1)
 
         # Calculate the total D2D Spectral Efficiency and Energy Efficiency
-        sum_D2D_SE_temp = np.expand_dims(np.sum(cur_cap[:, :-1], axis=1), -1)
-        sum_D2D_EE_temp = np.expand_dims(np.sum(cur_cap[:, :-1] / (np.sum(tx_power[:, :-1, :], axis=2) + P_c), axis=1), -1)
+        sum_D2D_SE_temp = np.expand_dims(np.sum(cur_cap[:, :-1], axis=1), -1)  # (num_config, 1)
+        sum_D2D_EE_temp = np.expand_dims(np.sum(cur_cap[:, :-1] / (np.sum(tx_power[:, :-1, :], axis=2) + P_c), axis=1), -1)   # (num_config, 1)
 
         # Filter results based on DUE mask
         D2D_SE_sum = sum_D2D_SE_temp * DUE_mask
@@ -403,23 +407,25 @@ def optimal_power(channel, tx_max, noise, DUE_thr, I_thr, P_c, tx_power_set, opt
 
 ## Calculate data rate for single channel, single sample
 def cal_RATE_one_sample_one_channel(channel, tx_power, noise):
+    # CHANN SHAPE = (NUM_USERS, NUM_USERS)
     diag_ch = np.diag(channel)
     inter_ch = channel-np.diag(diag_ch)
-    tot_ch = np.multiply(channel, np.expand_dims(tx_power, -1))
-    int_ch = np.multiply(inter_ch, np.expand_dims(tx_power, -1))
-    sig_ch = np.sum(tot_ch-int_ch, axis=1)
-    int_ch = np.sum(int_ch, axis=1)
+    tot_ch = np.multiply(channel, np.expand_dims(tx_power, -1))  # (num_config, num_D2D + 1, num_D2D + 1)
+    int_ch = np.multiply(inter_ch, np.expand_dims(tx_power, -1)) # (num_config, num_D2D + 1, num_D2D + 1)
+    sig_ch = np.sum(tot_ch-int_ch, axis=1)    # (num_config, num_D2D + 1)
+    int_ch = np.sum(int_ch, axis=1)    # (num_config, num_D2D + 1)
     SINR_val = np.divide(sig_ch, int_ch+noise)
     cap_val = np.log2(1.0+SINR_val)
-    return cap_val
+    return cap_val  # (num_config, num_D2D + 1)
 
 
 def cal_CUE_INTER_one_sample_one_channel(channel, tx_power):
+    # tx_power = (num_config, num_d2d +1, 1)
     diag_ch = np.diag(channel)
-    inter_ch = channel-np.diag(diag_ch)
-    int_ch = np.multiply(inter_ch, np.expand_dims(tx_power, -1))
-    int_ch = np.sum(int_ch, axis=1)
-    return int_ch
+    inter_ch = channel-np.diag(diag_ch)  # (num_d2d +1, num_d2d+1)
+    int_ch = np.multiply(inter_ch, np.expand_dims(tx_power, -1)) # (num_config, num_D2D + 1, num_D2D + 1)
+    int_ch = np.sum(int_ch, axis=1)  # sum across all users (num_config, num_D2D + 1)
+    return int_ch   # (num_config, num_D2D + 1)
 
 
 
@@ -451,9 +457,9 @@ def optimal_power_w_chan(channel, tx_max, noise, DUE_thr, I_thr, P_c, tx_power_s
     '''
 
     # Extract the number of channels, D2D users, and samples from the channel data
+    num_samples = channel.shape[0]
     num_channel = channel.shape[1]
     num_D2D_user = channel.shape[2] - 1  # Last user is the CUE
-    num_samples = channel.shape[0]
     
     # Initialize total Spectral Efficiency and lists to store power settings and infeasible channels
     tot_SE = 0
