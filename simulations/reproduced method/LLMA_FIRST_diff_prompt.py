@@ -654,7 +654,7 @@ If A is 56.2, 62.9, 50.8, 66.1, then B is 100, 0.
 If A is 57.9, 57.3, 53.2, 47.5, then B is 0, 100.
 If A is 64.3, 67.8, 60.9, 55.0, then B is 100, 0.
 If A is 72.1, 56.2, 56.2, 69.5, then B is 100, 0.
-If A is 52.4, 67.5, 57.1, 55.3, then B is 
+If A is 52.4, 67.5, 57.1, 55.3, then B is: 
 """
 
 ##  100 and F is 100.
