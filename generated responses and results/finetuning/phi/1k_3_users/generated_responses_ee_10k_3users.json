@@ -1,0 +1,1402 @@
+[
+    {
+        "sample_index": "794",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -47, -44, -104, -186, 234, -242, -116, -232, -116,",
+        "original_response": "0, 33, 0.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "132",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 5, -167, -249, -174, 69, -203, -135, 34, -143,",
+        "original_response": "0, 43, 0.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "545",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -115, -299, -248, -336, -210, -131, -292, -207, -74,",
+        "original_response": "0, 0, 57.",
+        "predicted_response": "0, 4, 0."
+    },
+    {
+        "sample_index": "120",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -26, -155, -175, -156, -113, -231, -17, -300, -121,",
+        "original_response": "51, 0, 0.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "488",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 10, -67, -139, -202, -106, -80, -224, -74, 20,",
+        "original_response": "0, 0, 47.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "151",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 139, -150, -196, -276, -129, -342, -0, -259, -106,",
+        "original_response": "38, 0, 0.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "584",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -186, -304, -302, -176, -114, -250, -297, -203, 29,",
+        "original_response": "0, 0, 46.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "875",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -37, -201, -44, -225, -84, -274, -193, -268, -140,",
+        "original_response": "52, 0, 0.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "468",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -128, 6, -146, -29, -130, -312, 45, -231, -120,",
+        "original_response": "0, 0, 64.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "493",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -15, -40, -166, -44, -69, -120, -255, -227, 1,",
+        "original_response": "0, 0, 49.",
+        "predicted_response": "0, 0, 41."
+    },
+    {
+        "sample_index": "31",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 0, -218, -278, -220, 7, -277, -312, -272, -114,",
+        "original_response": "3, 2, 11.",
+        "predicted_response": "0, 4, 0."
+    },
+    {
+        "sample_index": "992",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 127, -219, -143, -135, 7, -206, -136, -179, 35,",
+        "original_response": "1, 2, 1.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "936",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -71, -400, 129, -250, -37, -402, -120, -342, 67,",
+        "original_response": "0, 17, 9.",
+        "predicted_response": "0, 4, 0."
+    },
+    {
+        "sample_index": "343",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -29, -230, -299, -207, 256, -206, -339, -187, -77,",
+        "original_response": "11, 1, 8.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "813",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -120, -293, 25, -267, -47, -338, -192, -188, -189,",
+        "original_response": "0, 54, 0.",
+        "predicted_response": "0, 5, 0."
+    },
+    {
+        "sample_index": "116",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -69, -211, -342, -239, -173, -71, -127, -48, -159,",
+        "original_response": "56, 0, 0.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "627",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -105, -228, -204, -144, -81, -29, -147, -276, -248,",
+        "original_response": "0, 58, 0.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "174",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 91, -117, -288, 57, -95, -153, -286, -116, -11,",
+        "original_response": "5, 0, 6.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "230",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -89, -140, -34, -144, -171, -36, -25, -66, -172,",
+        "original_response": "59, 0, 0.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "313",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -110, -82, 129, -369, 8, -161, -59, -288, -92,",
+        "original_response": "0, 48, 0.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "769",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -39, -107, -80, -134, -77, -167, -128, -201, 13,",
+        "original_response": "0, 0, 47.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "596",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 52, -274, -200, -462, -2, -360, -142, -300, -59,",
+        "original_response": "5, 30, 0.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "79",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -127, -140, -158, -164, -116, -78, -395, -347, -137,",
+        "original_response": "0, 63, 0.",
+        "predicted_response": "0, 0, 41."
+    },
+    {
+        "sample_index": "487",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -105, -294, -255, -262, -156, -389, -356, -225, -20,",
+        "original_response": "5, 0, 12.",
+        "predicted_response": "0, 4, 0."
+    },
+    {
+        "sample_index": "496",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -91, -389, 53, -295, -20, -289, -85, -304, 79,",
+        "original_response": "0, 6, 6.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "460",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -20, -237, -247, -336, -165, -412, -441, -376, 214,",
+        "original_response": "1, 9, 18.",
+        "predicted_response": "0, 0, 41."
+    },
+    {
+        "sample_index": "110",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 109, -206, -346, -344, -188, -318, -284, -298, -109,",
+        "original_response": "9, 0, 6.",
+        "predicted_response": "0, 0, 50."
+    },
+    {
+        "sample_index": "100",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -5, -225, -240, -231, -86, -108, -236, -175, -109,",
+        "original_response": "49, 0, 0.",
+        "predicted_response": "0, 4, 0."
+    },
+    {
+        "sample_index": "632",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -102, -165, -137, -235, 29, -143, -82, -171, -19,",
+        "original_response": "0, 46, 0.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "149",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -13, -129, -81, -281, -161, -72, -290, -149, -131,",
+        "original_response": "50, 0, 0.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "679",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -109, -223, -202, -341, 81, -374, -184, -368, 116,",
+        "original_response": "0, 11, 10.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "146",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -207, -99, 140, -95, -23, 11, -74, 53, -103,",
+        "original_response": "0, 51, 0.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "415",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 39, -200, 22, -31, 19, -89, 31, -140, -105,",
+        "original_response": "45, 0, 0.",
+        "predicted_response": "0, 0, 54."
+    },
+    {
+        "sample_index": "91",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -49, -60, -276, 10, 89, -311, -159, -296, 7,",
+        "original_response": "0, 6, 6.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "382",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 8, -374, -158, -279, -88, -193, 130, -310, -110,",
+        "original_response": "13, 6, 0.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "176",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -52, -86, -47, 114, -225, -22, -55, -10, -1,",
+        "original_response": "0, 0, 49.",
+        "predicted_response": "0, 4, 0."
+    },
+    {
+        "sample_index": "841",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -212, -282, -133, -268, -110, -213, -123, -386, 44,",
+        "original_response": "0, 4, 15.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "52",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -153, 77, -357, -115, -170, -352, -262, -303, 83,",
+        "original_response": "0, 13, 7.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "741",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -73, -287, -33, -186, -123, -227, -131, -295, -76,",
+        "original_response": "57, 0, 0.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "104",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -10, -236, -210, -321, -205, -415, -110, -145, -208,",
+        "original_response": "50, 0, 0.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "658",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -130, -289, -260, -375, -92, -133, -307, -193, -67,",
+        "original_response": "7, 16, 0.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "730",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -122, -344, -227, -167, -145, -325, -246, -320, 43,",
+        "original_response": "0, 10, 8.",
+        "predicted_response": "0, 0, 41."
+    },
+    {
+        "sample_index": "242",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -78, -200, -323, -224, -5, 2, -207, -144, -164,",
+        "original_response": "0, 49, 0.",
+        "predicted_response": "0, 4, 0."
+    },
+    {
+        "sample_index": "882",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -126, -81, -121, -223, -183, -388, -261, -228, 23,",
+        "original_response": "0, 0, 46.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "7",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 50, -155, -118, -263, -27, -195, -61, -277, -35,",
+        "original_response": "44, 0, 0.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "758",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 66, -249, -97, -218, 219, -149, -281, -209, -129,",
+        "original_response": "3, 2, 0.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "601",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 6, -423, -312, -312, -84, -39, -321, -170, -88,",
+        "original_response": "20, 8, 0.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "985",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -96, -255, -320, -87, -129, -267, -285, -184, -93,",
+        "original_response": "9, 0, 7.",
+        "predicted_response": "0, 4, 0."
+    },
+    {
+        "sample_index": "453",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 115, -299, -276, -226, -129, -181, -262, -297, -14,",
+        "original_response": "7, 1, 5.",
+        "predicted_response": "0, 4, 0."
+    },
+    {
+        "sample_index": "984",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -28, -253, -328, -356, -145, -132, -285, -116, -27,",
+        "original_response": "9, 0, 6.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "568",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -91, -288, -278, -279, -28, -153, -230, -40, -295,",
+        "original_response": "6, 6, 0.",
+        "predicted_response": "0, 4, 0."
+    },
+    {
+        "sample_index": "492",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -91, -197, -387, -219, -39, -80, -341, -316, -112,",
+        "original_response": "17, 0, 11.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "87",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -146, -182, -239, -142, -61, -341, -233, -193, -102,",
+        "original_response": "0, 55, 0.",
+        "predicted_response": "0, 0, 41."
+    },
+    {
+        "sample_index": "84",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -92, -264, -33, -190, -133, -294, -89, -170, -134,",
+        "original_response": "59, 0, 0.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "934",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -45, -315, -283, -261, 114, 109, -191, -154, -132,",
+        "original_response": "8, 4, 0.",
+        "predicted_response": "0, 0, 41."
+    },
+    {
+        "sample_index": "840",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -94, -332, -272, -225, 140, -112, -390, -149, -50,",
+        "original_response": "10, 3, 0.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "600",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -184, -243, -282, -206, -144, -156, -282, -121, 38,",
+        "original_response": "0, 0, 45.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "125",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -75, -177, -121, -165, -53, 144, -195, -345, -210,",
+        "original_response": "0, 54, 0.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "67",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -23, -82, 120, -32, -112, -109, -126, -61, 20,",
+        "original_response": "0, 0, 47.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "806",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -124, -241, -172, -140, 29, -174, -251, -201, -26,",
+        "original_response": "0, 46, 0.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "369",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -177, -39, -338, -259, 97, -215, -254, -383, -54,",
+        "original_response": "0, 3, 16.",
+        "predicted_response": "0, 4, 0."
+    },
+    {
+        "sample_index": "41",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 42, -265, -86, -146, -84, -125, -198, -387, -78,",
+        "original_response": "45, 0, 0.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "928",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -187, -210, -275, -51, -96, -229, -199, -226, -127,",
+        "original_response": "0, 60, 0.",
+        "predicted_response": "0, 4, 0."
+    },
+    {
+        "sample_index": "443",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 200, -226, -191, -245, -130, -231, -304, -353, -170,",
+        "original_response": "35, 0, 0.",
+        "predicted_response": "0, 4, 0."
+    },
+    {
+        "sample_index": "281",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -126, -359, -280, -456, -82, -101, -231, -277, -40,",
+        "original_response": "14, 31, 0.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "327",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -180, -157, -278, -159, -162, -297, -212, -187, -164,",
+        "original_response": "0, 71, 0.",
+        "predicted_response": "0, 4, 0."
+    },
+    {
+        "sample_index": "956",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -102, -169, -92, -189, 1, -282, -258, -272, -161,",
+        "original_response": "0, 49, 0.",
+        "predicted_response": "0, 4, 0."
+    },
+    {
+        "sample_index": "575",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -102, -86, -248, -12, -14, -311, -255, -324, -146,",
+        "original_response": "0, 8, 10.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "856",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 105, -210, -265, -55, -76, -329, -281, -281, -86,",
+        "original_response": "4, 0, 6.",
+        "predicted_response": "0, 0, 51."
+    },
+    {
+        "sample_index": "90",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -156, -315, -299, -289, -175, 1, -83, -222, -66,",
+        "original_response": "0, 0, 56.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "165",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -145, -209, -172, -109, -249, -125, -115, -68, 11,",
+        "original_response": "0, 0, 48.",
+        "predicted_response": "0, 0, 41."
+    },
+    {
+        "sample_index": "388",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 73, -279, -368, -283, -58, -212, -530, -170, -137,",
+        "original_response": "12, 0, 56.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "803",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -47, -78, -334, -136, -108, -293, -206, -292, -108,",
+        "original_response": "54, 0, 0.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "2",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -106, -213, -134, -153, 8, -236, 51, -238, -124,",
+        "original_response": "0, 48, 0.",
+        "predicted_response": "0, 0, 44."
+    },
+    {
+        "sample_index": "963",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -92, -181, -328, -247, -156, -301, -274, -379, 22,",
+        "original_response": "0, 8, 14.",
+        "predicted_response": "0, 4, 0."
+    },
+    {
+        "sample_index": "85",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -116, -153, -185, -3, -157, -244, -183, -262, -221,",
+        "original_response": "63, 0, 0.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "9",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -4, -122, -95, 47, 14, -32, -123, -16, -98,",
+        "original_response": "0, 47, 0.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "606",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 72, -260, -279, -281, 46, -229, -243, -298, -166,",
+        "original_response": "4, 4, 1.",
+        "predicted_response": "0, 4, 0."
+    },
+    {
+        "sample_index": "27",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -9, -215, -302, -205, 77, 138, -224, 26, 22,",
+        "original_response": "7, 0, 3.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "359",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -134, -319, -252, 14, -61, -164, -155, -120, -93,",
+        "original_response": "0, 55, 0.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "651",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -104, -201, -282, -197, -116, -163, -243, -370, -26,",
+        "original_response": "0, 0, 51.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "846",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -118, -249, -86, -214, 95, -332, -293, -272, -26,",
+        "original_response": "0, 8, 5.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "274",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -48, -381, -244, -357, -139, -227, -244, -197, -36,",
+        "original_response": "15, 14, 0.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "953",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 58, -261, -366, -245, -98, 47, -340, -29, -70,",
+        "original_response": "11, 0, 10.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "760",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 74, -128, -99, 107, -230, -33, -77, -30, -72,",
+        "original_response": "42, 0, 0.",
+        "predicted_response": "0, 0, 50."
+    },
+    {
+        "sample_index": "981",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -109, -150, -169, -258, -277, -99, -185, 16, -42,",
+        "original_response": "0, 0, 53.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "501",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -90, -324, -106, -307, -104, -191, -71, -329, -85,",
+        "original_response": "10, 8, 0.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "342",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -127, -245, -240, -355, -51, -411, -205, -212, -58,",
+        "original_response": "1, 27, 1.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "279",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 19, -150, -171, -378, -88, -351, 62, -289, -166,",
+        "original_response": "47, 0, 0.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "44",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -59, -177, -206, -359, -22, -277, -199, -220, -62,",
+        "original_response": "1, 13, 1.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "529",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -126, 92, -403, -260, -92, -212, -207, -178, -164,",
+        "original_response": "0, 59, 0.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "339",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -165, -276, -249, -271, -242, -149, -340, -83, -193,",
+        "original_response": "72, 0, 0.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "991",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -62, -409, -300, -293, -142, -289, -214, -210, -179,",
+        "original_response": "20, 8, 0.",
+        "predicted_response": "0, 4, 0."
+    },
+    {
+        "sample_index": "434",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 40, -113, -212, -156, -56, -227, -299, -116, -96,",
+        "original_response": "45, 0, 0.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "476",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -115, 1, -233, -332, 25, -17, -294, -89, 157,",
+        "original_response": "0, 0, 37.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "383",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -10, -252, -296, -298, 15, -148, -167, 1, -75,",
+        "original_response": "4, 6, 0.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "967",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 77, -240, -148, -128, -132, 8, -196, -220, -80,",
+        "original_response": "42, 0, 0.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "236",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -31, -374, -304, -299, -32, -196, -208, -181, -133,",
+        "original_response": "14, 7, 0.",
+        "predicted_response": "0, 4, 0."
+    },
+    {
+        "sample_index": "103",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -118, -90, -198, -3, -54, -120, -160, -207, 11,",
+        "original_response": "0, 0, 48.",
+        "predicted_response": "0, 0, 41."
+    },
+    {
+        "sample_index": "901",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -202, -259, -303, -161, -32, -203, -70, -321, -63,",
+        "original_response": "0, 4, 9.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "254",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -100, -240, -250, -157, -49, -210, -455, -160, 127,",
+        "original_response": "5, 0, 23.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "334",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 54, -47, -88, -207, -111, -149, -208, 46, -84,",
+        "original_response": "44, 0, 0.",
+        "predicted_response": "0, 0, 53."
+    },
+    {
+        "sample_index": "404",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -146, -41, -224, -77, -96, -266, -583, -167, -206,",
+        "original_response": "18, 0, 100.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "569",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -62, -234, -201, -208, -70, 66, -358, -38, 35,",
+        "original_response": "3, 0, 12.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "15",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -94, -216, -129, -163, -121, -176, -133, -154, -233,",
+        "original_response": "60, 0, 0.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "88",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -101, -182, -111, -155, -80, -202, -268, -317, -150,",
+        "original_response": "0, 58, 0.",
+        "predicted_response": "0, 0, 41."
+    },
+    {
+        "sample_index": "319",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 113, -210, -287, -22, -215, -209, -137, -150, -153,",
+        "original_response": "40, 0, 0.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "129",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -9, -353, -332, -258, -43, -223, -227, -293, -48,",
+        "original_response": "12, 2, 2.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "424",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -146, -70, -325, -221, 76, -437, -297, -358, -46,",
+        "original_response": "0, 20, 11.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "356",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 181, -176, -236, -111, -59, -329, -228, -302, 140,",
+        "original_response": "1, 3, 15.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "378",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -135, -266, -255, -187, -186, -23, -154, -170, -46,",
+        "original_response": "0, 0, 53.",
+        "predicted_response": "0, 4, 0."
+    },
+    {
+        "sample_index": "508",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 21, -325, -5, -200, -62, -309, -60, -401, 128,",
+        "original_response": "0, 7, 14.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "463",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 79, -299, -99, -104, -108, -79, -163, -235, -235,",
+        "original_response": "42, 0, 0.",
+        "predicted_response": "0, 0, 50."
+    },
+    {
+        "sample_index": "6",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -15, -238, -339, -153, 51, -376, -217, -407, -64,",
+        "original_response": "0, 12, 18.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "931",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -63, -452, -360, -296, -33, -154, -246, 48, -16,",
+        "original_response": "30, 7, 0.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "258",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -9, -144, -101, -198, -78, -138, -17, -147, 76,",
+        "original_response": "0, 0, 42.",
+        "predicted_response": "0, 4, 0."
+    },
+    {
+        "sample_index": "173",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -140, -325, -277, -232, 121, -126, -143, -150, -98,",
+        "original_response": "0, 39, 0.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "698",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -131, -267, -221, -143, -374, -415, -184, -314, -69,",
+        "original_response": "0, 0, 56.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "278",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -32, -281, -212, -312, 5, -208, -180, -168, -30,",
+        "original_response": "6, 7, 0.",
+        "predicted_response": "0, 4, 0."
+    },
+    {
+        "sample_index": "353",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -145, -209, -119, -181, -80, -146, 105, -170, -40,",
+        "original_response": "0, 0, 53.",
+        "predicted_response": "0, 4, 0."
+    },
+    {
+        "sample_index": "849",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 3, -131, -48, -134, -77, -287, -337, -367, -175,",
+        "original_response": "48, 0, 0.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "898",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 24, -49, -185, -118, 164, -178, 11, -67, 10,",
+        "original_response": "0, 37, 0.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "34",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 19, -461, -335, -367, -78, -28, -356, -162, -159,",
+        "original_response": "27, 13, 0.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "894",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -189, -83, -270, -276, -211, -293, -122, -123, -113,",
+        "original_response": "0, 0, 63.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "227",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -36, -233, -287, -275, -17, -182, -280, 7, -81,",
+        "original_response": "4, 5, 0.",
+        "predicted_response": "0, 4, 0."
+    },
+    {
+        "sample_index": "724",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -85, -262, -90, -210, -93, -188, -152, -219, -99,",
+        "original_response": "58, 0, 0.",
+        "predicted_response": "0, 4, 0."
+    },
+    {
+        "sample_index": "42",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -221, -186, -162, -185, 55, 131, -308, -120, -208,",
+        "original_response": "0, 44, 0.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "528",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 65, -359, -178, -403, -80, -391, -304, -375, -191,",
+        "original_response": "10, 18, 0.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "214",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 0, -234, 47, -182, -52, -161, -203, -159, -105,",
+        "original_response": "49, 0, 0.",
+        "predicted_response": "0, 0, 5."
+    },
+    {
+        "sample_index": "628",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 42, -239, 62, -277, -69, -263, -45, -233, -135,",
+        "original_response": "45, 0, 0.",
+        "predicted_response": "0, 0, 50."
+    },
+    {
+        "sample_index": "954",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -75, -307, -279, -322, 29, -337, -259, -285, -75,",
+        "original_response": "3, 9, 2.",
+        "predicted_response": "0, 4, 0."
+    },
+    {
+        "sample_index": "11",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -27, -105, -255, -124, -85, -208, -80, -279, 2,",
+        "original_response": "0, 0, 48.",
+        "predicted_response": "0, 0, 41."
+    },
+    {
+        "sample_index": "531",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -52, -182, -189, -238, -81, -301, -34, -193, -84,",
+        "original_response": "54, 0, 0.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "224",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -147, -297, -399, -320, 159, -231, -374, -313, 3,",
+        "original_response": "13, 1, 9.",
+        "predicted_response": "0, 0, 50."
+    },
+    {
+        "sample_index": "734",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 75, -292, -267, -385, -92, -165, -244, -245, -109,",
+        "original_response": "6, 17, 0.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "823",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 25, -204, -448, -140, -30, -314, -386, -291, -132,",
+        "original_response": "23, 0, 17.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "799",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 75, -391, -206, -420, -94, -151, -260, -123, -69,",
+        "original_response": "13, 21, 0.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "338",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -196, -266, -269, -351, -88, -170, -333, -41, -96,",
+        "original_response": "0, 59, 0.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "607",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -117, -381, -274, -239, -51, 120, -296, 42, -30,",
+        "original_response": "18, 5, 0.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "444",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -156, -35, -329, -100, -31, -200, -221, -287, -1,",
+        "original_response": "0, 3, 6.",
+        "predicted_response": "0, 4, 0."
+    },
+    {
+        "sample_index": "494",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -20, -333, -152, -239, 56, -272, 14, -267, 22,",
+        "original_response": "0, 4, 4.",
+        "predicted_response": "0, 0, 54."
+    },
+    {
+        "sample_index": "119",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -108, -255, -175, -139, -66, -184, -506, -169, -28,",
+        "original_response": "7, 0, 54.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "773",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -253, -237, -243, -3, -36, -231, -329, -270, -144,",
+        "original_response": "0, 52, 0.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "604",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -49, -170, -271, -170, -83, -242, -366, -203, -124,",
+        "original_response": "6, 0, 15.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "50",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -35, -5, -222, -163, 62, -280, -232, -295, -74,",
+        "original_response": "0, 5, 7.",
+        "predicted_response": "0, 4, 0."
+    },
+    {
+        "sample_index": "294",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -234, -227, -244, -216, -50, -240, -407, -321, -271,",
+        "original_response": "0, 54, 0.",
+        "predicted_response": "0, 4, 0."
+    },
+    {
+        "sample_index": "153",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 87, -202, -213, -150, -9, -302, -35, -249, 82,",
+        "original_response": "1, 12, 2.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "164",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -100, -184, -286, -237, -11, -298, -278, -276, -56,",
+        "original_response": "1, 3, 8.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "307",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -57, -85, -139, -129, -108, -27, -117, -113, -77,",
+        "original_response": "55, 0, 0.",
+        "predicted_response": "0, 4, 0."
+    },
+    {
+        "sample_index": "423",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -170, -225, -190, -332, -81, -239, -237, -104, -98,",
+        "original_response": "0, 58, 0.",
+        "predicted_response": "0, 4, 0."
+    },
+    {
+        "sample_index": "64",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -40, -299, -211, -345, 72, -375, -236, -323, -146,",
+        "original_response": "1, 15, 1.",
+        "predicted_response": "0, 4, 0."
+    },
+    {
+        "sample_index": "40",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -56, -110, -123, -304, 217, -203, -166, -306, 129,",
+        "original_response": "0, 2, 6.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "12",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 198, -385, -116, -396, -19, -316, -59, -199, 99,",
+        "original_response": "11, 15, 0.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "291",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -170, -257, -344, -406, 14, -59, -359, -7, -159,",
+        "original_response": "6, 18, 0.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "825",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 172, -204, -153, -280, -79, -302, -24, -289, 9,",
+        "original_response": "36, 0, 0.",
+        "predicted_response": "0, 4, 0."
+    },
+    {
+        "sample_index": "523",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -106, -283, -428, -295, -0, -342, -289, -360, -50,",
+        "original_response": "8, 5, 11.",
+        "predicted_response": "0, 4, 0."
+    },
+    {
+        "sample_index": "293",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -25, -209, -115, -289, -86, -197, -191, -0, -155,",
+        "original_response": "51, 0, 0.",
+        "predicted_response": "0, 4, 0."
+    },
+    {
+        "sample_index": "399",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 71, -56, 17, -156, -118, -205, -209, -146, -40,",
+        "original_response": "42, 0, 0.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "551",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -121, -118, -188, -59, -71, -183, -146, -161, -21,",
+        "original_response": "0, 0, 51.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "491",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 76, -411, 52, -317, -35, -424, -309, -248, -216,",
+        "original_response": "16, 8, 0.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "300",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -17, -248, -392, -363, -212, -306, -173, -237, -117,",
+        "original_response": "50, 0, 0.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "276",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -27, -248, -380, -191, -168, -327, -319, -218, -89,",
+        "original_response": "14, 0, 9.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "712",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -184, -310, -248, -227, 72, -158, -248, -163, -51,",
+        "original_response": "0, 42, 0.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "827",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -86, -263, -282, -280, -64, -138, -255, -191, -33,",
+        "original_response": "12, 1, 1.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "819",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -117, -233, -327, -314, -76, -344, -215, -493, -53,",
+        "original_response": "0, 11, 39.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "191",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -119, -297, 103, -172, -308, -272, -232, -356, -186,",
+        "original_response": "64, 0, 0.",
+        "predicted_response": "0, 0, 51."
+    },
+    {
+        "sample_index": "65",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 5, -128, 55, -128, -145, 12, -156, -129, -5,",
+        "original_response": "48, 0, 0.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "175",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -192, -304, -369, -321, -124, -214, -147, -317, -44,",
+        "original_response": "0, 0, 53.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "362",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -57, -306, -292, -302, -42, -310, -417, -312, -182,",
+        "original_response": "6, 4, 15.",
+        "predicted_response": "0, 4, 0."
+    },
+    {
+        "sample_index": "646",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 71, -336, -355, -277, -115, -260, -283, -169, 35,",
+        "original_response": "14, 1, 1.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "751",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -165, -170, -360, -58, -120, -307, -322, -347, -44,",
+        "original_response": "0, 8, 11.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "114",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 7, -60, -275, 33, 8, -150, -118, -156, -43,",
+        "original_response": "0, 48, 0.",
+        "predicted_response": "0, 0, 54."
+    },
+    {
+        "sample_index": "247",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -114, -303, -182, -297, -123, -279, -89, -247, -130,",
+        "original_response": "8, 8, 0.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "178",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 143, 32, -181, -93, -134, -353, -270, -162, -101,",
+        "original_response": "38, 0, 0.",
+        "predicted_response": "0, 0, 50."
+    },
+    {
+        "sample_index": "883",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -76, -82, -282, -121, -101, -393, -210, -341, -108,",
+        "original_response": "0, 18, 11.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "904",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -49, -94, -149, -124, -60, -130, -197, -240, -154,",
+        "original_response": "54, 0, 0.",
+        "predicted_response": "0, 0, 41."
+    },
+    {
+        "sample_index": "766",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -25, -202, -104, -101, -88, -253, -273, -218, 14,",
+        "original_response": "0, 0, 47.",
+        "predicted_response": "0, 4, 0."
+    },
+    {
+        "sample_index": "653",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -13, -338, -198, -334, -59, -351, -330, -346, -91,",
+        "original_response": "2, 15, 7.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "232",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -170, -259, -294, -331, -158, -79, -277, -106, -228,",
+        "original_response": "0, 71, 0.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "217",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -126, -237, -311, -126, -76, -351, -234, -316, 54,",
+        "original_response": "0, 11, 7.",
+        "predicted_response": "0, 4, 0."
+    },
+    {
+        "sample_index": "210",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -177, -133, -289, -79, -50, -234, -341, -339, 3,",
+        "original_response": "0, 4, 10.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "887",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -118, -106, -205, -312, -166, -451, -329, -248, 172,",
+        "original_response": "0, 39, 5.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "725",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 10, -236, -374, -95, -46, -295, -239, -314, -103,",
+        "original_response": "6, 1, 20.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "21",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -32, -310, -146, -188, -210, -263, -182, -314, 31,",
+        "original_response": "0, 0, 46.",
+        "predicted_response": "0, 0, 41."
+    },
+    {
+        "sample_index": "123",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -171, -127, -242, -344, -197, -281, -229, -367, -151,",
+        "original_response": "0, 0, 69.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "804",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 38, -249, -147, -42, -108, -75, -117, 28, 23,",
+        "original_response": "45, 0, 0.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "891",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 166, -290, -419, -384, 69, -93, -386, 34, -20,",
+        "original_response": "15, 0, 14.",
+        "predicted_response": "0, 10, 0."
+    },
+    {
+        "sample_index": "726",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 83, -179, -465, -130, -125, -269, -421, -283, -73,",
+        "original_response": "24, 0, 20.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "997",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 19, -290, 29, -290, -174, -339, -132, -127, -86,",
+        "original_response": "47, 0, 0.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "719",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -5, -238, 20, -240, -12, -208, -147, -171, -215,",
+        "original_response": "4, 4, 0.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "838",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 183, -291, -314, -288, -212, -236, -219, -126, -76,",
+        "original_response": "6, 0, 3.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "299",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -93, -499, -365, -392, -198, -213, -398, -329, 53,",
+        "original_response": "40, 3, 5.",
+        "predicted_response": "0, 4, 0."
+    },
+    {
+        "sample_index": "474",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 125, -42, -225, -108, -28, -190, -349, -304, -79,",
+        "original_response": "3, 0, 12.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "650",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 117, -271, -185, -286, -87, -225, -286, -318, -70,",
+        "original_response": "2, 5, 5.",
+        "predicted_response": "0, 0, 51."
+    },
+    {
+        "sample_index": "844",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -43, -205, -243, -108, 148, 15, -241, -130, -144,",
+        "original_response": "0, 37, 0.",
+        "predicted_response": "0, 0, 55."
+    },
+    {
+        "sample_index": "640",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -23, -41, -323, -105, 42, -294, -194, -243, -62,",
+        "original_response": "0, 6, 4.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "462",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is 96, -255, 194, -174, -208, -260, -122, -456, -164,",
+        "original_response": "41, 0, 0.",
+        "predicted_response": "0, 0, 50."
+    },
+    {
+        "sample_index": "366",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -30, -264, -314, -290, -14, -178, -238, -224, -147,",
+        "original_response": "5, 6, 0.",
+        "predicted_response": "0, 4, 0."
+    },
+    {
+        "sample_index": "512",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -87, -88, -284, -146, -103, -268, -322, -172, -107,",
+        "original_response": "7, 0, 10.",
+        "predicted_response": "0, 0, 52."
+    },
+    {
+        "sample_index": "511",
+        "instruction": "Take a deep breath and work on this problem step-by-step. You are a mathematical tool to predict some model. Your job is to predict B for given A. The following is the dataset that you can use for the prediction.",
+        "input": "If A is -159, -306, -161, -272, -69, -265, -1, -242, -169,",
+        "original_response": "0, 56, 0.",
+        "predicted_response": "0, 0, 52."
+    }
+]
