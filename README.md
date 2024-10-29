@@ -1,2 +1,2 @@
 # Resource Allocation in Telecom
-Contains our work on using ai for resource allocation in telecom.
+Open-sourced repository for our paper: "Fine-Tuning Large Language Models for Optimal Resource Management in D2D Wireless Networks". We also released the datasets, and fine-tuned models at: [Hugging Face](https://huggingface.co/tayyibsupercool)
